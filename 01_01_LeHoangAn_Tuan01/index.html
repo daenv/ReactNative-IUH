@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>LeHoangAn-20107181</title>
+     <script>
+          function calculateBMI() {
+               // Step 1: Get Mark's and John's mass and height from input fields
+               const markMass = parseFloat(document.getElementById('markMass').value);
+               const markHeight = parseFloat(document.getElementById('markHeight').value);
+               const johnMass = parseFloat(document.getElementById('johnMass').value);
+               const johnHeight = parseFloat(document.getElementById('johnHeight').value);
+
+               // Step 2: Calculate both their BMIs using the formula
+               const markBMI = markMass / (markHeight ** 2);
+               const johnBMI = johnMass / (johnHeight ** 2);
+
+               // Step 3: Create a Boolean variable 'markHigherBMI'
+               const markHigherBMI = markBMI > johnBMI;
+
+               // Display the BMIs and the result of the comparison
+               document.getElementById('markBMI').innerHTML = `Mark's BMI: ${markBMI.toFixed(2)}`;
+               document.getElementById('johnBMI').innerHTML = `John's BMI: ${johnBMI.toFixed(2)}`;
+               document.getElementById('result').innerHTML = markHigherBMI ? "Mark has a higher BMI than John." : "John has a higher BMI than Mark.";
+          }
+     </script>
+</head>
+
+<body>
+     <h1>BMI Comparison</h1>
+     <label for="markMass">Mark's Mass (kg):</label>
+     <input type="number" id="markMass" step="0.01"><br>
+     <label for="markHeight">Mark's Height (m):</label>
+     <input type="number" id="markHeight" step="0.01"><br>
+
+     <label for="johnMass">John's Mass (kg):</label>
+     <input type="number" id="johnMass" step="0.01"><br>
+     <label for="johnHeight">John's Height (m):</label>
+     <input type="number" id="johnHeight" step="0.01"><br>
+
+     <button onclick="calculateBMI()">Calculate BMI</button><br>
+
+     <p id="markBMI"></p>
+     <p id="johnBMI"></p>
+     <p id="result"></p> 
+
+</body>
+
+</html>
