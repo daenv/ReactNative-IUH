@@ -1,4 +1,3 @@
-// JavaScript code for the number guessing game
 
 // Initialize variables
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
