@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
 
-function HomeScreen({ navigation }) {
+function Page1a({ navigation }) {
   return (
     <View style={styles.container}>
       <LinearGradient
@@ -89,4 +89,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default Page1a;
