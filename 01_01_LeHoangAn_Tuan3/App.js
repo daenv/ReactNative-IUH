@@ -17,12 +17,6 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="tuan3">
         <Stack.Screen name="firstscreen" component={FistScreen} />
-        <Stack.Screen name="Page1a" component={Page1a} />
-        <Stack.Screen name="Page1b" component={Page1b} />
-        <Stack.Screen name="Page1c" component={Page1c} />
-        <Stack.Screen name="Page1d" component={Page1d} />
-        <Stack.Screen name="Page1e" component={Page1e} />
-        <Stack.Screen name="Page2a" component={Page2a} />
       </Stack.Navigator>
     </NavigationContainer>
   );

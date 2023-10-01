@@ -14,7 +14,7 @@ function Page1a({ navigation }) {
         style={styles.background}
       />
       <Image
-        source={require("../../assets/Ellipse 8.png")}
+        source={require("../../assets/Ellipse.png")}
         style={{ width: 140, height: 140 }}
       />
       <Text style={styles.title}> Grow Your Bussiness </Text>
@@ -39,7 +39,7 @@ function Page1a({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: 'orange',
+    backgroundColor: "orange",
     alignItems: "center",
     justifyContent: "space-around",
   },
