@@ -65,7 +65,7 @@ const Page2a = () => {
             source={require("../../assets/lock.png")}
             style={{ position: "absolute", zIndex: 1, top: 22, left: 22 }}
           />
-          <TextInput placeholder="Password" style={styles.input}></TextInput>
+          <TextInput placeholder="Password" style={styles.input} secureTextEntry></TextInput>
           <Image
             source={require("../../assets/eye.png")}
             style={{ position: "absolute", zIndex: 1, top: 22, right: 22 }}
