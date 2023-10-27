@@ -30,7 +30,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bike.png"),
       type: "RoadBike",
       price: 2800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
     {
       id: 3,
@@ -38,7 +39,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bine.png"),
       type: "Mountain",
       price: 3800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
 
     {
@@ -46,7 +48,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       name: "Pina Cycle",
       img: require("../../assets/bike1.png"),
       price: 4800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
     {
       id: 5,
@@ -54,7 +57,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bike.png"),
       type: "Mountain",
       price: 5800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
     {
       id: 6,
@@ -62,7 +66,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bike.png"),
       type: "RoadBike",
       price: 2800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
     {
       id: 7,
@@ -70,7 +75,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bike.png"),
       type: "Mountain",
       price: 3800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
 
     {
@@ -78,7 +84,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       name: "Pina Cycle",
       img: require("../../assets/bike1.png"),
       price: 4800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
     {
       id: 9,
@@ -86,7 +93,8 @@ const Screen2 = ({ navigation }: Screen2Props) => {
       img: require("../../assets/bike12.png"),
       type: "Mountain",
       price: 5800,
-      decription: 'It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.'
+      decription:
+        "It is a very important form of writing as we write almost everything in paragraphs, be it an answer, essay, story, emails, etc.",
     },
   ];
 
@@ -97,7 +105,7 @@ const Screen2 = ({ navigation }: Screen2Props) => {
 
   const handleAllPress = () => {
     setSelection(1);
-    setState(bike); 
+    setState(bike);
   };
   const handleFilterRoadBike = () => {
     setSelection(2);
